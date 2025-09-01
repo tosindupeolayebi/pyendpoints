@@ -7,7 +7,7 @@ async def main():
             "streams": [
                 {
                     "id": "localcam",
-                    "url": "webcam"   # triggers OpenCV to use cv2.VideoCapture(0)
+                    "url": "webcam" # triggers OpenCV to use cv2.VideoCapture(0)
                 }
             ]
         }))
